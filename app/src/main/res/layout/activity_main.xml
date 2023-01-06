@@ -146,4 +146,10 @@
 
     </ScrollView>
 
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/countdownGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="countdownTextView,countdownProgressBar" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
